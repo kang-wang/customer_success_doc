@@ -1,0 +1,119 @@
+{
+  "gitbook": "3.2.3",
+  "plugins": [
+    "favicon",
+    "autotheme", "-lunr", "-search",
+    "search-plus",
+    "prism", "-highlight",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "book-summary-scroll-position-saver",
+    "anchor-navigation-ex",
+    "copy-code-button",
+    "multipart"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": false
+    },
+    "fontSettings": {
+      "family": "serif",
+      "size": 2
+    },
+    "github": {
+      "url": "https://github.com/YYETST/customer_success_doc"
+    },
+    "autotheme": {
+      "white": [9, 10, 11, 12, 13, 14, 15, 16, 17],
+      "sepia": [6, 7, 8, 18, 19],
+      "night": [20, 21, 22, 23, 0, 1, 2, 3, 4, 5]
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-tomorrow.css"
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": false,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": true,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": false,
+      "qzone": true,
+      "stumbleupon": false,
+      "twitter": false,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "facebook", "google", "twitter",
+        "weibo", "instapaper", "linkedin",
+        "pocket", "stumbleupon"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy 用友客户成功部 2020",
+      "modify_label": "修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false,
+      "associatedWithSummary": false,
+      "printLog": false,
+      "multipleH1": true,
+      "mode": "float",
+      "showGoTop": true,
+      "float": {
+        "floatIcon": "fa fa-navicon",
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      },
+      "pageTop": {
+        "showLevelIcon": false,
+        "level1Icon": "fa fa-hand-o-right",
+        "level2Icon": "fa fa-hand-o-right",
+        "level3Icon": "fa fa-hand-o-right"
+      }
+    },
+    "favicon": {
+      "shortcut": "/assets/images/favicon.ico",
+      "bookmark": "/assets/images/favicon.ico",
+      "appleTouch": "/assets/images/apple-touch-icon.png",
+      "appleTouchMore": {
+        "120x120": "/assets/images/apple-touch-icon-120x120.png",
+        "180x180": "/assets/images/apple-touch-icon-180x180.png"
+      }
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontFamily": "Arial",
+    "fontSize": 12,
+    "paperSize": "a4",
+    "margin": {
+      "right": 62,
+      "left": 62,
+      "top": 56,
+      "bottom": 56
+    }
+  },
+  "title": "用友客户成功部",
+  "description": "用友客户成功部-文档中心",
+  "author": "王立",
+  "language": "zh-hans",
+  "root": ".",
+  "structure": {
+    "readme": "README.md"
+  }
+}
