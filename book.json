@@ -112,8 +112,5 @@
   "description": "用友客户成功部-文档中心",
   "author": "王立",
   "language": "zh-hans",
-  "root": ".",
-  "structure": {
-    "readme": "README.md"
-  }
+  "root": "."
 }
