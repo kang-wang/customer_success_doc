@@ -20,7 +20,7 @@ src/main/resources/lib
 
 如何使用请查看文档[接收监听数据](/mybook/cloudapprove/4-/receive_approve_data.md)
 
-#### 第六步：接收监听数据
+#### 第六步：获取表单数据
 
 如何使用请查看文档[获取表单数据](/mybook/cloudapprove/5-/billcontent.md)
 
