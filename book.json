@@ -7,7 +7,6 @@
     "prism", "-highlight",
     "splitter",
     "-sharing",
-    "sharing-plus",
     "tbfed-pagefooter",
     "expandable-chapters-small",
     "book-summary-scroll-position-saver",
@@ -34,30 +33,6 @@
     "prism": {
       "css": [
         "prismjs/themes/prism-tomorrow.css"
-      ]
-    },
-    "sharing": {
-      "douban": false,
-      "facebook": false,
-      "google": false,
-      "hatenaBookmark": false,
-      "instapaper": false,
-      "line": true,
-      "linkedin": false,
-      "messenger": false,
-      "pocket": false,
-      "qq": false,
-      "qzone": true,
-      "stumbleupon": false,
-      "twitter": false,
-      "viber": false,
-      "vk": false,
-      "weibo": true,
-      "whatsapp": false,
-      "all": [
-        "facebook", "google", "twitter",
-        "weibo", "instapaper", "linkedin",
-        "pocket", "stumbleupon"
       ]
     },
     "tbfed-pagefooter": {
