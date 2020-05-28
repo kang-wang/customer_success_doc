@@ -137,7 +137,7 @@ DefaultIdentityService的insertBasicData(BasicDataResourceParam basicDataResouce
 
 #### 注意事项 ####
 
-测试代码中有注册云深——协同的审批监听的demo
+测试代码中有注册云审——协同的审批监听的demo
 ApproveListenTest.testListen()
 - - - 
 
