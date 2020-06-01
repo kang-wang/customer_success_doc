@@ -126,9 +126,13 @@ public IFormDataQueryParam getPkBoAndBoins(String businessKey){
         return param;
 }
 
+```
+
+可以通过[获取表单字段](/mybook/cloudapprove/9-/billparams.md)
+
 fromData和subFormMap根据表单字段编码赋值即可
 
-```
+建议使用返回的fieldId当做key
 
 
 
