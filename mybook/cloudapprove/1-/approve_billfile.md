@@ -1,10 +1,9 @@
-## 注册监听最佳实践
+## 修改表单数据最佳实践
 
 ### 应用场景
 
 在用友的业务系统做了审批流，
-需要在审批流的某个环节，调用第三方的接口
-将审批数据回调给第三方系统
+需要在审批流的某个环节，修改表单中的数据
 
 #### 第一步：下载测试Demo
 
@@ -26,7 +25,16 @@ src/main/resources/lib
 
 如何使用请查看文档[接收监听数据](/mybook/cloudapprove/4-/receive_approve_data.md)
 
-#### 第六步：获取表单数据
+#### 第六步：获取表单数据(根据需求选择接口文档)
 
-如何使用请查看文档[获取表单数据](/mybook/cloudapprove/5-/billcontent.md)
+1. 如何使用请查看文档[获取表单数据](/mybook/cloudapprove/5-/billcontent.md)
+2. 如何使用请查看文档[获取表单附件信息](/mybook/cloudapprove/7-/billfiles.md)
+
+#### 第七步：修改表单数据
+
+1. 如何使用请查看文档[更新表单数据](/mybook/cloudapprove/5-/billcontent.md)
+
+
+
+
 
