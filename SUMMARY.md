@@ -7,7 +7,7 @@
     * [入门](mybook/selfbuild/1-/selfbuild_enter.md)
     * [常见问题](mybook/selfbuild/2-/q.md)
 * [云审批接入](mybook/cloudapprove/README.md)
-    * [最佳实践]()
+    * [最佳实践](mybook/cloudapprove/1-/README.md)
         * [注册监听最佳实践](mybook/cloudapprove/1-/approve_listen.md)
         * [修改表单数据最佳实践](mybook/cloudapprove/1-/approve_billfile.md)
     * [权限验证](mybook/cloudapprove/2-/Identity_verify.md)

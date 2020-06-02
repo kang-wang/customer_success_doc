@@ -1,6 +1,7 @@
 ## 接收监听数据
-第三方系统在注册监听事件时填写的回调url，
+1. 第三方系统在注册监听事件时填写的回调url，
 用来接收监听数据
+2. 注意这里的请求，意思是用友系统的请求，返回，是第三方系统的返回
 - - -
 #### 版本 ####
 v1
@@ -40,6 +41,30 @@ JSON
             <td>租户 code</td>
      </tr>   
 </table>
+
+#### 请求数据 ####
+
+```
+{
+    "thirdPartyUniqueId":"esn2120300",
+    "processEnd":true,
+    "userPhone":"手机号",
+    "canBeArchived":false,
+    "language":"zh_CN",
+    "source":"ESN",
+    "tenantCode":"approve_zjhrilpq",
+    "userName":"姓名",
+    "userId":"c4cf4330-86e2-4d89-9b4d-cea1bf3369eb",
+    "userCode":"HRC18211102015",
+    "processDefinitionKey":"iform_3e41d17055",
+    "businessKey":"7cf6b90bf9a24bb6abe53de22ee73227:bea0303d91b94f91bb71169ec431b5b5",
+    "userMail":"邮箱",
+    "tenantId":"zjhrilpq_approve",
+    "processInstId":"961127d8-a47f-11ea-9c8c-66700af9a2c9",
+    "yht_access_token":"bttKzg1RjhBeFNsZ0piRG1qcWJERkh3Umt5N1hxOWRBQU00dmNqR2RyWnl4ME9vTGpjd0JPNXRPMVk1Sys5MWNBWmpXYTA2V3VnUkZVNGpFOFhxVHdDajdNYURZL2I0clFIT3N4VSsyQlJ0WGFUelRKQTNZQ1gzYWtpZkZiei8yT2lfX2V1Yy55b255b3VjbG91ZC5jb20.__4c1c33f0f2a10c21a9bbce7bf4c7dcf3_1590998301780"
+}
+
+```
 
 - - - 
 
