@@ -44,10 +44,12 @@ https://www.diwork.com或者https://yonsuite.diwork.com（自己使用的业务�
 
 #### 2.1. 前提条件
 
-通过 [服务商接入](mybook/isv/README.md) 或者 [自建接入](mybook/selfbuild/README.md)
+1. 通过 [服务商接入](mybook/isv/README.md) 或者 [自建接入](mybook/selfbuild/README.md)
 已经获取到鉴权参数access_token。
 原因：
 【集成认证中心获取登录临时code】接口需要用到鉴权参数access_token
+
+#### 2.2. 流程图
 
 <div align=center>
 <span style="color: red; text-align: left">
@@ -55,3 +57,5 @@ https://www.diwork.com或者https://yonsuite.diwork.com（自己使用的业务�
 <img src="/mybook/single-login/1-/images/7.png"/>
 </div>
 <p align="center">图 7</p>
+
+

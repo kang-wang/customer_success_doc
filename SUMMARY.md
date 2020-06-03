@@ -1,5 +1,11 @@
 # Summary
 
+### 常用功能
+* [单点登录YS](mybook/single-login/1-/single-login.md)
+
+
+ 
+### 接入入门
 * [首页](README.md)
 * [服务商接入](mybook/isv/README.md)
     * [入门](mybook/isv/1-/isv_enter.md)
