@@ -148,7 +148,6 @@ ApproveListenTest.testListen()
 流程结束监听|process_listener
 流程开始监听|process_start_listener
 环节结束监听|process_activity_listener
-流程开始监听|process_start_listener
 消息回调|message_send
 外部参与人|user
 模型创建回调|model_save_listener
@@ -166,8 +165,8 @@ ApproveListenTest.testListen()
 <p align="center">图 1</p>
 
 获取procDefId
-processDefinionId由两个冒号隔开，去第一个冒号前的字符串即可
-eg:  12345:67:890
+processDefinionId由两个冒号隔开，取第一个冒号前的字符串即可
+,如下：12345:67:890
 procDefId = 12345
 
 <div align=center>
@@ -178,7 +177,7 @@ procDefId = 12345
 获取source
 
 <div align=center>
-<img src="/mybook/cloudapprove/3-/images/2.png"/>
+<img src="/mybook/cloudapprove/3-/images/3.png"/>
 </div>
 <p align="center">图 3</p>
 

@@ -12,11 +12,16 @@
     "book-summary-scroll-position-saver",
     "anchor-navigation-ex",
     "copy-code-button",
-    "multipart"
+    "multipart",
+    "donate"
   ],
   "pluginsConfig": {
     "theme-default": {
       "showLevel": false
+    },
+    "donate": {
+      "wechat": "/images/weichatpay.png",
+      "button": "打赏"
     },
     "fontSettings": {
       "family": "serif",
