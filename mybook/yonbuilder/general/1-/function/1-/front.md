@@ -2,7 +2,7 @@
 
 ## 简单卡片界面
 
-1. 卡片界面取值赋值
+取值赋值
 
 ```
 function (event) {
@@ -15,7 +15,7 @@ function (event) {
 
 ```
 
-2. 值改变后事件
+修改值后函数
 
 ```
 function (event) {
@@ -28,7 +28,7 @@ function (event) {
 
 ```
 
-3. 值改变前事件
+值改变前事件
 
 ```
 function (event) {

@@ -25,8 +25,10 @@
 * [YonBuilder](mybook/yonbuilder/README.md)
     * [标准版](mybook/yonbuilder/standard/README.md)
         * [产品概述](mybook/yonbuilder/standard/introduction/README.md)
+        * [前端函数](mybook/yonbuilder/general/1-/function/1-/front.md)
     * [专业版](mybook/yonbuilder/professional/README.md)
-        * [产品概述](mybook/yonbuilder/professional/introduction/README.md)   
+        * [产品概述](mybook/yonbuilder/professional/introduction/README.md)
+        * [前端函数](mybook/yonbuilder/general/1-/function/1-/front.md)  
 
 ### 公有云专业认证体系
 
