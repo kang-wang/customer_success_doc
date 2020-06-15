@@ -41,4 +41,15 @@ function (event) {
 
 ```
 
+获取当前登录的用户信息
+
+```
+
+function (event) {
+  var viewModel = this;
+  viewModel.get("name").setValue(cb.rest.AppContext.user);  //cb.rest.AppContext  
+} 
+
+```
+
 
