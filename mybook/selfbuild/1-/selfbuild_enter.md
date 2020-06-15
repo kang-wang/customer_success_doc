@@ -103,7 +103,7 @@ summerId|请输入上传到IUAP平台的安装包ID
 [测试Demo](https://github.com/YYETST/ZJTSET.git)
 
 ```
-- 该demo为springboot项目，在resources/application.properties里面配置<font color=#FF0000 > `app.key` `app.secret` `app.code`</font> 三个参数，启动CorpDemoApplication 即可测试。
+- 该demo为springboot项目，在resources/application.properties里面配置 `app.key` `app.secret` `app.code`</font> 三个参数，启动CorpDemoApplication 即可测试。
 ```
 
 #### 4.2. 注意事项
