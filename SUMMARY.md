@@ -20,6 +20,8 @@
     * [查询租户监听列表](mybook/cloudapprove/6-/listencontent.md)
     * [获取表单文件](mybook/cloudapprove/7-/billfiles.md)
     * [更新表单数据](mybook/cloudapprove/8-/updateBill.md)  
+    * [获取表单字段](mybook/cloudapprove/9-/billparams.md)  
+    * [获取全部表单内容](mybook/cloudapprove/10-/billAllContent.md)   
 * [审批中心接入](mybook/approve_center/README.md)
     * [入门](mybook/approve_center/1-/approvecenter_enter.md)
     * [常见问题](mybook/approve_center/2-/common_problem.md)     
