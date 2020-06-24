@@ -28,12 +28,16 @@
 ##### buildInvoiceApplyDelParam() 构造开票申请删除表单数据
 ##### issue() 开票申请审核通过 <br>
 - 当autoAudit置为false时，不自动审核，需要人工确认
+
 ##### red() 发票红冲请求服务及电子发票部分红冲
 ##### insertWithSplit()   开票蓝票请求服务--发票拆分
+
 - 超限额会拆分，超明细行会拆分,每次请求的数据不能超过10张单据,此接口只能用来开具蓝票
+
 ##### buildUrlConfigs()  url回调配置 
 ##### buildSmsConfigs()  构造短信发送信息
 - 开票时，给指定人员发送短信通知
+
 ##### buildRequestDatas() 构造requestdatas
 #####  redRequestDatas()  构造redRequestdatas
 ##### buildRequestDatasSplit()  构造蓝票请求服务--发票拆分数据
