@@ -1,5 +1,13 @@
 # Summary
 
+### 开发者大赛专区
+* [YonBuilder基础版](mybook/developergame/README.md)
+    * [设备管理](mybook/developergame/1-/devicemanage.md)
+    * [设备巡检](mybook/developergame/2-/inspection.md)
+    * [函数入门](mybook/developergame/3-/function.md)
+    * [移动能力](mybook/developergame/4-/mobile.md)
+    * [智能分析](mybook/developergame/5-/analysis.md)
+    
 ### 云平台专业技术方案体系
 * [首页](README.md)
 * [服务商接入](mybook/isv/README.md)
@@ -33,8 +41,8 @@
 * [税务云接入](mybook/tax_cloud/README.md)
     * [入门](mybook/tax_cloud/1-/tax_cloud.md)
     * [常见问题](mybook/tax_cloud/2-/q.md)
+    
 ### 公有云专业认证体系
-
 * [专业认证](mybook/authentication/README.md) 
 
    
