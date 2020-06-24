@@ -17,12 +17,12 @@
 - resources/certificate/pro22.pfx
 
 #### API文档
-在测试demo的中
+在测试demo中的
 - resources/certificate/电子发票OpenAPI文档V1.24.html
 - resources/certificate/全票种-直接对接台账（ocr方式，不通过个人票夹）.pdf
 - resources/certificate/电子发票报销应用OpenAPI第2版(包含电票上传).html
 ## 说明
-#### BuildParam.java放置电子发票参数
+#### InvoiceBuildParam.java放置电子发票参数
 
 - buildInsertWithArrayPostParam() 构造开票蓝票请求服务 表单数据
 - issue() 开票申请审核通过
