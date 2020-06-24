@@ -5,7 +5,7 @@
 直接执行java.demo.test包下的测试类的main方法即可测试
 
 #### 切换环境
-切换环境测试需要修改URLConfigEnum.java的参数 KEY_PATH PASSWORD APPID DOMAIN
+切换环境测试需要修改URLConfigEnum.java的参数 KEY_PATH ,PASSWORD, APPID ,DOMAIN
 
 #### 包含义
 - crypto 放置密钥相关的处理类
@@ -22,56 +22,61 @@
 - resources/certificate/全票种-直接对接台账（ocr方式，不通过个人票夹）.pdf
 - resources/certificate/电子发票报销应用OpenAPI第2版(包含电票上传).html
 ## 说明
-#### InvoiceBuildParam.java放置电子发票参数
+### InvoiceBuildParam.java放置电子发票参数
 
-- buildInsertWithArrayPostParam() 构造开票蓝票请求服务 表单数据
-- issue() 开票申请审核通过
-- red() 发票红冲请求服务及电子发票部分红冲
-- insertWithSplit()   开票蓝票请求服务--发票拆分
-- buildUrlConfigs()  url回掉配置
-- buildSmsConfigs()  构造短信发送信息
-- buildRequestDatas() 构造requestdatas
--  redRequestDatas()  构造redRequestdatas
-- buildRequestDatasSplit()  构造蓝票请求服务--发票拆分数据
--  buildItems() 构造request发票明细
-- buildFpqqlsh() 获取发票请求流水号
-长度不超过20位，长度在1到20位的字母和数字组合，不可以重复的，
-不要包含window系统文件名限制的特殊字符
+##### buildInsertWithArrayPostParam() 构造开票蓝票请求服务表单数据
+##### buildInvoiceApplyDelParam() 构造开票申请删除表单数据
+##### issue() 开票申请审核通过 <br>
+- 当autoAudit置为false时，不自动审核，需要人工确认
+##### red() 发票红冲请求服务及电子发票部分红冲
+##### insertWithSplit()   开票蓝票请求服务--发票拆分
+- 超限额会拆分，超明细行会拆分,每次请求的数据不能超过10张单据,此接口只能用来开具蓝票
+##### buildUrlConfigs()  url回调配置 
+##### buildSmsConfigs()  构造短信发送信息
+- 开票时，给指定人员发送短信通知
+##### buildRequestDatas() 构造requestdatas
+#####  redRequestDatas()  构造redRequestdatas
+##### buildRequestDatasSplit()  构造蓝票请求服务--发票拆分数据
+#####  buildItems() 构造request发票明细
+##### buildFpqqlsh() 获取发票请求流水号
+- 长度不超过20位，长度在1到20位的字母和数字组合，不可以重复的，
+ 不要包含window系统文件名限制的特殊字符
 
 
-#### StaBookBuildParam.java放置全票种参数
+### StaBookBuildParam.java放置全票种参数
 
-- buildRecognisePostParam()  OCR识别
--  OCR_Save() 识别结果保存台帐
-- OCR_SaveBills() 保存报销票据明细
-- OCR_SaveMachineData() 机打发票data
-- OCR_SaveAirData() 航空电子行程单DATA
-- itemList() 航空电子行程单DATA里面itemList参数设置
-- OCR_SaveTrainData() 火车票台账data
-- OCR_SaveTaxiData() 出租车保存报销data
-- reimbursed() 台账报销
--  reimbursedBills() 台账报销Bills参数设置
-- cancelReimbursed() 台账取消报销
-- account() 台账记账
-- accountBills()台账记账Bills
-- cancelAccount() 台账取消记账
-- delete() 报销台账删除
-- find()   飞机票、火车票，出租车台账查询
-- commit() 个人票夹提交发票到报销台账_全票种
-- summary() 个人票夹提交发票到报销台账_全票种中summary参数设置
+##### buildRecognisePostParam()  OCR识别接口
+#####  OCR_Save() 识别结果保存台帐
+##### OCR_SaveBills() 保存报销票据明细
+##### OCR_SaveMachineData() 机打发票data
+##### OCR_SaveAirData() 航空电子行程单DATA
+##### itemList() 航空电子行程单DATA里面itemList参数设置
+##### OCR_SaveTrainData() 火车票台账data
+##### OCR_SaveTaxiData() 出租车保存报销data
+##### reimbursed() 台账报销
+#####  reimbursedBills() 台账报销Bills参数设置
+##### cancelReimbursed() 台账取消报销
+##### account() 台账记账
+##### accountBills()台账记账Bills
+##### cancelAccount() 台账取消记账
+##### delete() 报销台账删除
+##### find()   飞机票、火车票，出租车台账查询
+##### commit() 个人票夹提交发票到报销台账_全票种
+##### summary() 个人票夹提交发票到报销台账_全票种中summary参数设置
 
-#### ReimburseCollection.java放置电子发票报销应用参数
 
--  uploadpdf()  发票上传与发票上传V2，V2返回值增加疑票状态
--  pdfFiles() uploadpdf中pdfFile的参数配置
--  CollDelete() 发票取消上传参数设置
--  CollReimbursed() 发票已报销
--  CollUnreimbursed() 发票取消报销
--  query() 报销台账查询接口（新）
--  accountStatus()   入账
--  CollCancelAccount() 取消入账
--  invoices() 为CollDelete()、CollReimbursed()、CollUnreimbursed()、accountStatus()、 
-CollCancelAccount()类中invoices参数进行设置
+### ReimburseCollection.java放置电子发票报销应用参数
+
+#####  uploadpdf()  发票上传与发票上传V2，V2返回值增加疑票状态
+#####  pdfFiles() uploadpdf中pdfFile的参数配置
+#####  CollDelete() 发票取消上传参数设置
+#####  CollReimbursed() 发票已报销
+#####  CollUnreimbursed() 发票取消报销
+#####  query() 报销台账查询接口（新）
+#####  accountStatus()   入账
+#####  CollCancelAccount() 取消入账
+#####  invoices() 为CollDelete()、CollReimbursed()、CollUnreimbursed()、accountStatus()、 CollCancelAccount()类中invoices参数进行设置
+
 
 ## 注 
 - 测试具体某个接口只需根据上面给出的接口方法，填写相关的参数即可。
