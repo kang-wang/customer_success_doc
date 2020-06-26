@@ -109,7 +109,7 @@
     </tr>
     <tr align="center">
         <td>编码：</td>
-        <td colspan="4">equipmentcategory</td>
+        <td colspan="4">eqcategory</td>
     </tr>
     <tr align="center">
         <td>父实体：</td>
@@ -277,13 +277,6 @@
     </tr>
     <tr align="center">
         <td></td>
-        <td>yongtu</td>
-        <td>用途</td>
-        <td>文本</td>
-        <td></td>
-    </tr>
-    <tr align="center">
-        <td></td>
         <td>shiyongqingkuang</td>
         <td>使用情况</td>
         <td>文本</td>
@@ -427,15 +420,88 @@
 ## 操作流程
 
 1. 新建单卡【设备大类】,勾选【生成参照】
-2. 发布参照
+2. 调整界面，发布参照
 3. 新建单卡【设备分类】,勾选【生成参照】
-4. 发布参照
+4. 隐藏ID,设置启用选项默认值为：【启用】,发布参照
 5. 新建单卡【设备台账】,勾选【生成参照】
-6. 调整布局样式
-7. 更改【设备台账参照】名为：【可借出设备】
-8. 新建单片【设备借用】
+6. 调整卡片布局样式,下图为结果
+<div align=center>
+<img src="/mybook/developergame/1-/images/1.png"/>
+</div>
+<p align="center">图 1</p>
+7. 更改【设备台账参照】名为：【可借出设备】，调整布局并发布
+8. 新建单片【设备借用】并调整布局
 9. 调整【设备借用卡片】中参照【设备卡片】过滤事项：设备状态为，闲置
-10. 验证保存一个借用单据
+10. 根据上面建立单据的顺序，依次录入数据验证保存一个借用单据
+
+<table border="1" cellpadding="3" cellspaing="3">
+    <tr align="center">
+        <td width="120px">名称：</td>
+        <td width="500px" colspan="3">设备大类</td>
+    </tr>
+    <tr align="center">
+        <td>预制数据</td>
+        <td>编码</td>
+        <td colspan="2">名称</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td>01</td>
+        <td colspan="2">计算机及网络设备</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td>02</td>
+        <td colspan="2">热力设备</td>
+    </tr> 
+    <tr align="center">
+        <td></td>
+        <td>03</td>
+        <td colspan="2">PC电脑设备</td>
+    </tr> 
+    <tr align="center">
+        <td></td>
+        <td>04</td>
+        <td colspan="2">手机</td>
+    </tr>            
+</table>
+
+<table border="1" cellpadding="3" cellspaing="3">
+    <tr align="center">
+        <td width="120px">名称：</td>
+        <td width="500px" colspan="4">设备分类</td>
+    </tr>
+    <tr align="center">
+        <td>预制数据</td>
+        <td colspan="2">名称</td>
+        <td>排序</td>
+        <td>设备大类</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td colspan="2">蒸汽设备</td>
+        <td>02</td>
+        <td>热力设备</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td colspan="2">服务器</td>
+        <td>01</td>
+        <td>计算机及网络设备</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td colspan="2">笔记本</td>
+        <td>02</td>
+        <td>计算机及网络设备</td>
+    </tr>
+    <tr align="center">
+        <td></td>
+        <td colspan="2">台式机</td>
+        <td>03</td>
+        <td>计算机及网络设备</td>
+    </tr>         
+</table>
 
 ## 预告
 
