@@ -441,7 +441,7 @@
     </tr>
     <tr align="center">
         <td>预制数据</td>
-        <td>编码</td>
+        <td>序号</td>
         <td colspan="2">名称</td>
     </tr>
     <tr align="center">
