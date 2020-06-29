@@ -414,6 +414,13 @@
         <td>单选引用</td>
         <td>设备卡片</td>
     </tr>
+    <tr align="center">
+        <td></td>
+        <td>name</td>
+        <td>名称</td>
+        <td>文本</td>
+        <td></td>
+    </tr>
 </table>
 
 

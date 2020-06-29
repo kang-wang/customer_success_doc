@@ -178,13 +178,6 @@
     </tr>
     <tr align="center">
         <td></td>
-        <td>shebeijingdu</td>
-        <td>设备经度</td>
-        <td>文本</td>
-        <td></td>
-    </tr>
-    <tr align="center">
-        <td></td>
         <td>shebeiweidu</td>
         <td>设备维度</td>
         <td>文本</td>
