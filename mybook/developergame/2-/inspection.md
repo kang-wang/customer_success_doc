@@ -3,7 +3,7 @@
 ## 需求概述
 
 包括设备从登记开始,
-设备使用(设备借用、携带外出、设备移交)、设备变更、设备维护等基础的设备管理业务，也包括设备折旧、使用费计提
+设备使用(设备借用、携带外出、设备移交)、设备变更、设备纬护等基础的设备管理业务，也包括设备折旧、使用费计提
 
 
 ## 准备资料
@@ -81,7 +81,7 @@
     <tr align="center">
         <td></td>
         <td>dingweiweidu</td>
-        <td>定位维度</td>
+        <td>定位纬度</td>
         <td>文本</td>
         <td></td>
     </tr>
@@ -179,7 +179,7 @@
     <tr align="center">
         <td></td>
         <td>shebeiweidu</td>
-        <td>设备维度</td>
+        <td>设备纬度</td>
         <td>文本</td>
         <td></td>
     </tr>
@@ -200,7 +200,7 @@
     <tr align="center">
         <td></td>
         <td>dangqianweidu</td>
-        <td>当前维度</td>
+        <td>当前纬度</td>
         <td>文本</td>
         <td></td>
     </tr>
