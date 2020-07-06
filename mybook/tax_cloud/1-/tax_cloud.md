@@ -2,6 +2,8 @@
 
 该测试类为税务云中常用的开票和受票接口
 
+代码Demo git地址 https://github.com/YYETST/yesfp-demo
+
 #### 执行方式
 
 直接执行java.demo.test包下的测试类的main方法即可测试
