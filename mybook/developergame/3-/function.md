@@ -169,7 +169,8 @@ let AbstractTrigger = require('AbstractTrigger');
       resp.map((v)=>{
         if (email !== null && email===v.email) {
           throw new Error('邮箱已存在！');
-        } else if (email !== null && mobile===v.mobile) {
+        } 
+        if (mobile !== null && mobile===v.mobile) {
           throw new Error('手机号已存在！');
         }
       });
