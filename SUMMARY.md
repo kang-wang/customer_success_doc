@@ -1,13 +1,18 @@
 # Summary
 
 ### 开发者大赛专区
-* [YonBuilder基础版](mybook/developergame/README.md)
-    * [设备管理](mybook/developergame/1-/devicemanage.md)
-    * [设备巡检](mybook/developergame/2-/inspection.md)
-    * [函数入门](mybook/developergame/3-/function.md)
-    * [移动能力](mybook/developergame/4-/mobile.md)
-    * [智能分析](mybook/developergame/5-/analysis.md)
-    
+* [YonBuilder基础版](mybook/developergame/base/README.md)
+    * [设备管理](mybook/developergame/base/1-/devicemanage.md)
+    * [设备巡检](mybook/developergame/base/2-/inspection.md)
+    * [函数入门](mybook/developergame/base/3-/function.md)
+    * [移动能力](mybook/developergame/base/4-/mobile.md)
+    * [智能分析](mybook/developergame/base/5-/analysis.md)
+* [YonBuilder专业版](mybook/developergame/professional/README.md) 
+    * [环境准备](mybook/developergame/professional/1-/start.md) 
+* [华为能力](mybook/developergame/huawei/README.md)
+    * [OCR](mybook/developergame/huawei/1-/ocr.md)
+    * [语音识别](mybook/developergame/huawei/2-/language.md)
+    * [人脸识别](mybook/developergame/huawei/3-/person.md)   
 ### 云平台专业技术方案体系
 * [首页](README.md)
 * [服务商接入](mybook/isv/README.md)
