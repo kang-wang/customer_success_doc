@@ -12,7 +12,8 @@
 * [华为能力](mybook/developergame/huawei/README.md)
     * [OCR](mybook/developergame/huawei/1-/ocr.md)
     * [语音识别](mybook/developergame/huawei/2-/language.md)
-    * [人脸识别](mybook/developergame/huawei/3-/person.md)   
+    * [人脸识别](mybook/developergame/huawei/3-/person.md)
+
 ### 云平台专业技术方案体系
 * [首页](README.md)
 * [服务商接入](mybook/isv/README.md)
