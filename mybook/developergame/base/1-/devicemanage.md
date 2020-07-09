@@ -432,10 +432,13 @@
 4. 隐藏ID,设置启用选项默认值为：【启用】,发布参照
 5. 新建单卡【设备台账】,勾选【生成参照】
 6. 调整卡片布局样式,下图为结果
+
 <div align=center>
-<img src="/mybook/developergame/1-/images/1.png"/>
+<img src="/mybook/developergame/base/1-/images/1.png"/>
 </div>
 <p align="center">图 1</p>
+
+
 7. 更改【设备台账参照】名为：【可借出设备】，调整布局并发布
 8. 新建单片【设备借用】并调整布局
 9. 调整【设备借用卡片】中参照【设备卡片】过滤事项：设备状态为，闲置

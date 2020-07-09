@@ -44,6 +44,8 @@
     * [常见问题](mybook/approve_center/2-/common_problem.md)     
 * [YonBuilder操作指南](mybook/yonbuilder/README.md)
     * [标准版](mybook/yonbuilder/standard/README.md)
+        * [基本流程](mybook/yonbuilder/standard/1-/operation.md)
+        * [注意事项](mybook/yonbuilder/standard/2-/question.md)
         * [产品概述](mybook/yonbuilder/standard/introduction/README.md)
     * [专业版](mybook/yonbuilder/professional/README.md)
         * [产品概述](mybook/yonbuilder/professional/introduction/README.md)   
