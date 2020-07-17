@@ -249,27 +249,6 @@
     </tr>
     <tr align="center">
         <td></td>
-        <td>zerenren</td>
-        <td>责任人</td>
-        <td>单选引用</td>
-        <td>员工</td>
-    </tr>
-    <tr align="center">
-        <td></td>
-        <td>zerenbumen</td>
-        <td>责任部门</td>
-        <td>单选引用</td>
-        <td>行政部门</td>
-    </tr>
-    <tr align="center">
-        <td></td>
-        <td>shiyongren</td>
-        <td>使用人</td>
-        <td>单选引用</td>
-        <td>员工</td>
-    </tr>
-    <tr align="center">
-        <td></td>
         <td>yongtu</td>
         <td>用途</td>
         <td>文本</td>
@@ -385,13 +364,6 @@
         <td>名称</td>
         <td>类型</td>
         <td>引用</td>
-    </tr>
-    <tr align="center">
-        <td></td>
-        <td>jieyongren</td>
-        <td>借用人</td>
-        <td>单选引用</td>
-        <td>员工</td>
     </tr>
     <tr align="center">
         <td></td>

@@ -13,9 +13,14 @@
     "anchor-navigation-ex",
     "copy-code-button",
     "multipart",
-    "donate"
+    "donate",
+    "simple-page-toc"
   ],
   "pluginsConfig": {
+    "simple-page-toc": {
+      "maxDepth": 3,
+      "skipFirstH1": true
+    },
     "theme-default": {
       "showLevel": false
     },
