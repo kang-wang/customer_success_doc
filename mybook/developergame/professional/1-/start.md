@@ -86,7 +86,19 @@
 
 #### 前端修改
 
-打开env.json
+将env.json覆盖到本地
+
+<div align=center>
+<img src="/mybook/developergame/professional/1-/images/16.png"/>
+</div>
+<p align="center">图 16</p>
+
+<div align=center>
+<img src="/mybook/developergame/professional/1-/images/17.png"/>
+</div>
+<p align="center">图 17</p>
+
+覆盖env.json后，再进行编辑
 
 <div align=center>
 <img src="/mybook/developergame/professional/1-/images/2.png"/>
@@ -180,6 +192,26 @@ mdd.uimeta.prop.metaServerUrl=http://2020.yonyoucloud.com/mdf
 <img src="/mybook/developergame/professional/1-/images/9.png"/>
 </div>
 <p align="center">图 9</p>
+
+
+#### 访问
+
+在应用中打开预览，然后更改为本地地址即可
+
+<div align=center>
+<img src="/mybook/developergame/professional/1-/images/13.png"/>
+</div>
+<p align="center">图 13</p>
+
+<div align=center>
+<img src="/mybook/developergame/professional/1-/images/14.png"/>
+</div>
+<p align="center">图 14</p>
+
+<div align=center>
+<img src="/mybook/developergame/professional/1-/images/15.png"/>
+</div>
+<p align="center">图 15</p>
 
 
 

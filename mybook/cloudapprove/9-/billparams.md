@@ -120,21 +120,14 @@ FormService.queryFormFields(FormFieldQueryParam formFieldQueryParam)
 
 BillTest.getBillParam()
 
+###### pkbo获取
 
-###### pkBo和pkBoins如何获取
+打开审批流设计器
 
-```
-通过businessKey拆分可以获得
-
-public IFormDataQueryParam getPkBoAndBoins(String businessKey){
-        IFormDataQueryParam param =new IFormDataQueryParam();
-        String[] pks = businessKey.split(":");
-        param.setPkBo(pks[1]);
-        param.setPkBoins(pks[0]);
-        return param;
-}
-
-```
+<div align=center>
+<img src="/mybook/cloudapprove/15-/images/1.png"/>
+</div>
+<p align="center">图 1</p>
 
 
 

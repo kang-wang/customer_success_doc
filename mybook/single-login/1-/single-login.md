@@ -128,7 +128,7 @@ https://open.diwork.com/#/doc-center/docDes/doc?code=open_jrwd&section=022c94165
 
 #### 2.1. 前提条件
 
-1. 通过 [服务商接入](mybook/isv/README.md) 或者 [自建接入](mybook/selfbuild/README.md)
+1. 通过 [服务商接入](/mybook/isv/README.md) 或者 [自建接入](/mybook/selfbuild/README.md)
 已经获取到鉴权参数access_token。
 原因：
 【集成认证中心获取登录临时code】接口需要用到鉴权参数access_token
@@ -142,4 +142,10 @@ https://open.diwork.com/#/doc-center/docDes/doc?code=open_jrwd&section=022c94165
 </div>
 <p align="center">图 7</p>
 
+
+#### 2.2. 示例demo
+
+根据自己的需求下载【服务商demo】或者【自建demo】
+测试类
+SingleSignOnTest
 
