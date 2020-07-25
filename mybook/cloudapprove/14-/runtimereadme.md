@@ -16,11 +16,9 @@
 
 src/main/resources/lib
 
-#### 第四步：获取表单字段
+#### 第四步：保存表单并发起流程
 
-[获取表单字段](/mybook/cloudapprove/9-/billparams.md)  
+[保存表单并发起流程](/mybook/cloudapprove/15-/README.md) 
 
-#### 第五步：保存表单并发起流程
-
-[保存表单并发起流程](/mybook/cloudapprove/15-/README.md)  
+ 
 

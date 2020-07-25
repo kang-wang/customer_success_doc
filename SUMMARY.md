@@ -9,6 +9,7 @@
         * [前端函数](mybook/developergame/professional/3-/start.md)
         * [后端通用函数](mybook/developergame/base/3-/2-/afterend.md)
         * [后端实体操作](mybook/developergame/base/3-/3-/entityoption.md)
+        * [前端函数调用后端函数](mybook/developergame/base/3-/4-/beforeafter.md)
     * [移动能力](mybook/developergame/base/4-/mobile.md)
     * [智能分析](mybook/developergame/base/5-/analysis.md)
 * [YonBuilder专业版](mybook/developergame/professional/README.md) 
