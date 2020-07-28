@@ -18,7 +18,15 @@ src/main/resources/lib
 
 #### 第四步：通过自建接入获取用户的yhtuserid
 
-[自建接入](mybook/selfbuild/README.md)
+只需要配置应用信息，获取到accessToken。然后调用根据手机号获取用户信息接口即可
+
+示例：请下载自建接入的demo
+
+```
+UserInfoListTest.getUserInfoByMobile()
+```
+
+[自建接入](/mybook/selfbuild/README.md)
 
 #### 第五步：保存表单并发起流程
 

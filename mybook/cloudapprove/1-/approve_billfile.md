@@ -32,7 +32,7 @@ src/main/resources/lib
 
 #### 第七步：修改表单数据
 
-1. 如何使用请查看文档[更新表单数据](/mybook/cloudapprove/8-/billcontent.md)
+1. 如何使用请查看文档[更新表单数据](/mybook/cloudapprove/8-/updateBill.md)
 
 
 
