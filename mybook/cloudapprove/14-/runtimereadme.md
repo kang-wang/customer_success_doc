@@ -16,7 +16,11 @@
 
 src/main/resources/lib
 
-#### 第四步：保存表单并发起流程
+#### 第四步：通过自建接入获取用户的yhtuserid
+
+[自建接入](mybook/selfbuild/README.md)
+
+#### 第五步：保存表单并发起流程
 
 [保存表单并发起流程](/mybook/cloudapprove/15-/README.md) 
 

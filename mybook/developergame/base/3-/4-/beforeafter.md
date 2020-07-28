@@ -3,6 +3,8 @@
 
 ## 后端函数示例
 
+函数类型需要是API类型
+
 ```
 let AbstractAPIHandler = require('AbstractAPIHandler');
 

@@ -32,12 +32,26 @@ FormService.submitIForm(IFormSubmitParam param)
         <td>true</td>
         <td>list</td>
         <td>表单子表数据查看注意事项</td>
-    </tr>    
+    </tr>
+    <tr align="center">
+            <td>yhtuserid</td>
+            <td>true</td>
+            <td>String</td>
+            <td>发起人,请查看注意事项</td>
+        </tr>     
 </table>
 
 - - - 
 #### 请求数据 ####
+````
+header: 
+
+yhtuserid:0f059088-9c92-4769-a3e7-8f1a341cc3df
+
 ```
+```
+body:
+
 {
 	"formData": [
 		{
@@ -245,6 +259,8 @@ MyRuntimeTest.saveBill();
      */
     @Test
     public void saveBillCode() throws RestException {
+        //TODO:友互通用户id
+        String yhtuerid = "0f059088-9c92-4769-a3e7-8f1a341cc3df";
         IFormSubmitParam parmas = new IFormSubmitParam();
         //TODO:pkbo
         parmas.setPkBo("ab37e4343de142fe9c386fc7fad32ce4");
@@ -280,10 +296,19 @@ MyRuntimeTest.saveBill();
         subMap.put("20200725073131t53pTxKWmV",subDataParamList);
         parmas.setSubFormMap(subMap);
         parmas.setStartProcess(true);
-        ObjectNode result = (ObjectNode) billService.submitIForm(parmas);
+        ObjectNode result = (ObjectNode) billService.submitIForm(yhtuerid,parmas);
         System.out.println("这是查询表单字段返回的json数据:"+ result.toString());
     }
+```
 
+#### yhtuserid
+
+通过自建接入获取。根据手机号可获取用户的yhtuserid
+
+示例：请下载自建接入的demo
+
+```
+UserInfoListTest.getUserInfoByMobile()
 ```
 
 ###### 示例DEMO
