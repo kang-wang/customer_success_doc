@@ -13,20 +13,25 @@
     "anchor-navigation-ex",
     "copy-code-button",
     "multipart",
-    "donate",
-    "simple-page-toc"
+    "simple-page-toc",
+    "mygitalk"
   ],
   "pluginsConfig": {
+    "mygitalk": {
+      "clientID": "8e202a4ca9fd9e3c6057",
+      "clientSecret": "8a13e4f759809dacee9eb3a82055a05848de656d",
+      "repo": "YYETST.github.io",
+      "owner": "YYETST",
+      "admin": ["YYETST"],
+      "id": "window.location.pathname",
+      "distractionFreeMode": true
+    },
     "simple-page-toc": {
       "maxDepth": 3,
       "skipFirstH1": true
     },
     "theme-default": {
       "showLevel": false
-    },
-    "donate": {
-      "wechat": "/images/weichatpay.png",
-      "button": "打赏"
     },
     "fontSettings": {
       "family": "serif",

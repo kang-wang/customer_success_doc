@@ -16,12 +16,8 @@
     * [环境准备](mybook/developergame/professional/1-/start.md)
     * [MDD后端](mybook/developergame/professional/2-/start.md)
     * [任务卡片](mybook/developergame/professional/4-/start.md)  
-* [华为能力](mybook/developergame/huawei/README.md)
-    * [OCR](mybook/developergame/huawei/1-/ocr.md)
-    * [语音识别](mybook/developergame/huawei/2-/language.md)
-    * [人脸识别](mybook/developergame/huawei/3-/person.md)
 
-### 云平台专业技术方案体系
+### YonBIP客开技术方案体系
 * [首页](README.md)
 * [服务商接入](mybook/isv/README.md)
     * [入门](mybook/isv/1-/isv_enter.md)
@@ -67,8 +63,6 @@
     * [入门](mybook/tax_cloud/1-/tax_cloud.md)
     * [常见问题](mybook/tax_cloud/2-/q.md)
     
-### 公有云专业认证体系
-* [专业认证](mybook/authentication/README.md) 
 
    
 
