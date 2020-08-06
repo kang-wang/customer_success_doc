@@ -57,6 +57,10 @@
     </tr>
 </table>
 
+####  专业版maven  settings
+
+[下载](http://pan.yonyou.com/s/lKgfUF4jR0I)   密码：l9lh
+
 ## 创建引擎
 
 填写信息后，我们会进行审核，并分配资源.请耐心等待

@@ -1,26 +1,3 @@
-# 前端函数
-
-## 课程内容
-
-<table border="1" cellpadding="3" cellspaing="3">
-    <tr align="center">
-        <td width="200px">控制按钮显示</td>
-    </tr>
-    <tr align="center">
-        <td width="200px">保存前校验</td>
-    </tr>
-    <tr align="center">
-         <td width="200px">删除前校验</td>
-     </tr>
-</table>
-
-#### 概述
-
-一般性功能扩展，我们建议通过前端函数的方式，实现功能。
-- 前端函数一般做一些设置默认值，或者校验。对于原有功能的扩展，请在页面初始化中绑定
-- 后端函数是规则链中的（注意区分），前端函数不要去调用后端函数。
-- 触发前事件，一般可以通过使用beforeXXX的方式实现
-- [常见方法使用手册](http://tinper.org/mdf/docs#/cx96ve.html) 
 
 #### 设备分类，启用行删除按钮不显示
 
