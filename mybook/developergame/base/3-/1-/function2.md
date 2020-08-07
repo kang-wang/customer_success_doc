@@ -266,3 +266,41 @@ function (event) {
        }
 }
 ```
+
+## 设置组件是否必输
+
+```
+function (event) {
+  var viewModel = this;
+  var param = viewModel.get("new1");
+  param.setState("bIsNull",false);
+  cb.utils.alert(param);
+}
+```
+
+## 前端调用controller  ---针对专业版controller
+
+```
+function (event) {
+  var viewModel = this;
+  var proxy = cb.rest.DynamicProxy.create({
+				settle: {
+					url: 'report/list',
+					method: 'POST'
+				}
+			});
+			//传参
+			var param = {
+				key: "value",
+			};
+			proxy.settle(param, function(err, result) {
+				if (err) {
+					cb.utils.alert(err.message, 'error');
+					return;
+				}
+				if (result != undefined) {
+					//对结果进行处理
+				}
+			});
+}
+```
