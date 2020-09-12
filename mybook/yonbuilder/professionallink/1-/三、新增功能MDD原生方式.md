@@ -64,6 +64,7 @@ public class ActivityRule extends AbstractRule {
 
 ### 规则二
 
+MddActivityService 请查看MDD操作数据库
 
 ```java
 package com.yonyou.ucf.mdf.domain.rules;

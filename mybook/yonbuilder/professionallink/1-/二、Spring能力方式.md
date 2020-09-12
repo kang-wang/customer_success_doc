@@ -120,9 +120,6 @@ public class ActivityController extends BillController {
     @Autowired
     MybatisActivityService mybatisActivityService;
 
-    @Autowired
-    SqlActivityService sqlActivityService;
-
     /**
      * 测试查询数据
      *
@@ -136,7 +133,6 @@ public class ActivityController extends BillController {
             //获取当前登录用户信息
             ISimpleUser user = MddBaseContext.getCurrentUser();
             Object object2 = mybatisActivityService.selectMybatis(params);
-            Object object3  = sqlActivityService.selectNoParams();
             this.renderJson(response, ResultMessage.data(object2));
         } catch (Exception e) {
             this.renderJson(response, ResultMessage.error(e.getMessage()));
