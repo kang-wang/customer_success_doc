@@ -1,6 +1,6 @@
 # Summary
 
-### YonBIP客开技术方案体系
+### 客开生态技术方案体系
 * [首页](README.md)
 * [YonBuilder常见问题](mybook/yonbuilder/generallink/8-/question1.md)
 * [YonBuilder基础服务](mybook/yonbuilder/generallink/README1.md)
@@ -46,7 +46,8 @@
     * [SDK最佳实践](mybook/cloudapprove/1-/README.md)
         * [第三方发起流程最佳实践](mybook/cloudapprove/14-/runtimereadme.md)
         * [注册监听最佳实践](mybook/cloudapprove/1-/approve_listen.md)
-        * [修改表单数据最佳实践](mybook/cloudapprove/1-/approve_billfile.md) 
+        * [修改表单数据最佳实践](mybook/cloudapprove/1-/approve_billfile.md)
+        * [获取所有表单数据最佳实践](mybook/cloudapprove/1-/allbill.md)  
         * [常见问题](mybook/cloudapprove/11-/q.md) 
     * [Rest接口](mybook/cloudapprove/1-/README1.md)
         * [根据yhtuserid获取发起事项](mybook/cloudapprove/12-/mysentdtotal.md) 

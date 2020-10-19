@@ -2,7 +2,7 @@
 
 描述|链接
 ---|---
-摩天--服务商接入视频|[链接](https://imotian.yonyou.com/motianweb/curriculumDetails/index?id=199)
+摩天--服务商接入视频|[链接](https://www.imotian.com/motianweb/curriculumDetails/index?id=199)
 |<img width="300px" src="/mybook/isv/images/1.png"/>
 线上文档|[链接](https://open.diwork.com/#/doc-center)
 |<img width="300px" src="/mybook/isv/images/2.png"/>

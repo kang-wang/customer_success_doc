@@ -1,10 +1,4 @@
 ## 获取表单全部内容
-触发监听事件后，返回给第三方的并不是表单内容，里面包含了
-参数有四个businessKey（业务单据号），
-userCode（用户code），
-processDefinitionKey（流程定义Key），
-tenantCode（租户code）
-可以根据businessKey获取表单内容
 - - -
 #### 版本 ####
 v1
@@ -25,12 +19,6 @@ FormService.queryIFormData(IFormDataQueryParam param)
         <td>pkBo</td>
         <td>true</td>
         <td>string</td>
-        <td>查看注意事项</td>
-    </tr>
-    <tr align="center">
-        <td>pkBoins</td>
-        <td>true</td>
-        <td>String</td>
         <td>查看注意事项</td>
     </tr>
 </table>
@@ -241,3 +229,17 @@ FormService.queryIFormData(IFormDataQueryParam param)
         <td>返回的具体字段，由您的表单内容决定</td>
     </tr>
 </table>
+
+#### 注意事项
+
+pkbo获取方式
+
+<div align=center>
+<img src="/mybook/cloudapprove/10-/images/1.png"/>
+</div>
+<p align="center">图 1</p>
+
+<div align=center>
+<img src="/mybook/cloudapprove/10-/images/2.png"/>
+</div>
+<p align="center">图 2</p>

@@ -2,7 +2,7 @@
 
 描述|链接
 ---|---
-摩天--自建应用接入视频|[链接](https://imotian.yonyou.com/motianweb/classIfication/classIfication)
+摩天--自建应用接入视频|[链接](https://www.imotian.com/motianweb/curriculumDetails/index?id=501)
 |<img width="300px" src="/mybook/selfbuild/images/1.png"/>
 线上文档|[链接](https://open.diwork.com/#/doc-center/docDes/doc?code=open_jrwd&section=4d98f0c5763b477b95390f25345b3df1)
 |<img width="300px" src="/mybook/selfbuild/images/2.png"/>
