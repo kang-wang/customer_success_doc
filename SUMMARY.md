@@ -21,6 +21,7 @@
 			* [示例：左连接查询](mybook/yonbuilder/generallink/7-/end/示例：左连接查询.md)
 			* [后端_API函数区分](mybook/yonbuilder/generallink/7-/end/后端_API函数区分.md)
 			* [YonSql使用指南](mybook/yonbuilder/generallink/7-/end/yonsql.md)
+			* [临时获取开放平台token方案](mybook/yonbuilder/generallink/9-/tempopenapi.md)
 		* [前端函数调用API函数](mybook/yonbuilder/generallink/7-/前端函数调用API函数.md)
 * [YonBuilder专业服务](mybook/yonbuilder/professionallink/README.md) 
     * [环境搭建](mybook/yonbuilder/professionallink/1-/readme1.md)
