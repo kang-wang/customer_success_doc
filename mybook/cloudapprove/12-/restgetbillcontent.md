@@ -1,8 +1,8 @@
-## 获取发起事项统计
-获取发起事项统计
+## 根据条件获取表单数据
+根据条件获取表单数据
 - - -
 #### URL ####
-https://ys.yonyoucloud.com/ubpm-web-rest/service/query/ext/historic-process-instances/count
+https://ys.yonyoucloud.com/ubpm-web-rest/service/query/ext/iformData
 
 - - - 
 #### 支持格式 ####
@@ -55,25 +55,40 @@ POST
         <td width="200px">说明</td>
     </tr>
     <tr align="center">
-        <td>finished</td>
-        <td>false</td>
-        <td>boolean</td>
-        <td>是否流程结束</td>
+        <td>pkbo</td>
+        <td>true</td>
+        <td>String</td>
+        <td></td>
     </tr>
     <tr align="center">
-        <td>startedBy</td>
-        <td>true</td>
+        <td>columnCode</td>
+        <td>false</td>
         <td>string</td>
-        <td>发起人友互通id</td>
+        <td>字段编码</td>
     </tr>
+    <tr align="center">
+            <td>columnValue</td>
+            <td>false</td>
+            <td>string</td>
+            <td>字段值</td>
+        </tr>
 </table>
 
 - - - 
 #### 请求JSON数据 ####
 ```
 {
-	"finished": false,
-	"startedBy": "0f059088-9c92-4769-a3e7-8f1a341cc3df"
+	"pkBo": "6f3edadfda924146a18fe9357dca60f9",
+	"queryOperator": "And",
+	"size": 1000,
+	"sqlConditions": [
+		{
+			"columnCode": "rq_160307198384328",
+			"columnValue": "2020-10-18",
+			"queryOperator": "Equal"
+		}
+	],
+	"start": 0
 }
 ```
 ---
@@ -82,7 +97,33 @@ POST
 
 ```
 {
-	"instancesCount": 11
+	"data": [
+		{
+			"wb1_1603071983843105": "33",
+			"wb3_160307198384359": "33",
+			"wb2_1603071983843779": "44",
+			"createuser": "0f059088-9c92-4769-a3e7-8f1a341cc3df",
+			"rq_160307198384328": "2020-10-18",
+			"version": 1,
+			"pk_boins": "16c420b831e94ab68689e7e65910c80b",
+			"dr": 0,
+			"pk_procdef": "processKey:1:cffb83ab-5d13-11ea-84d3-f676d4a6f6aa",
+			"pk_procdefins": "218c28e6-11ad-11eb-8b9a-36730f7bdd3f",
+			"pk_temp": "b4774eb51ac1484a9a10bd7207be4cdc",
+			"sysversion": 0,
+			"startdept": "1641272788504832",
+			"startorg": "1640198360125696",
+			"status": "end",
+			"ts": "2020-10-19 09:48:05"
+		}
+	],
+	"total": 1,
+	"start": 0,
+	"sort": null,
+	"order": null,
+	"size": 1000,
+	"errcode": 0,
+	"errmsg": "ok"
 }
 
 ```
