@@ -47,15 +47,12 @@
 ## 4 标准服务  
   [YonBuilder标准服务学习](/mybook/yonbuilder/generallink/README1.md)
 
-## 5 专业服务  
-  [YonBuilder专业服务学习](/mybook/yonbuilder/professionallink/README.md)
-
-## 6 快速手册
-  ### 6.1 常用网址  
+## 5 快速手册
+  ### 5.1 常用网址  
    * 数字化工作台：https://yonsuite.diwork.com  
    * 开发者中心：https://developer.yonyoucloud.com/land/builder.html   
    * 摩天学习：https://www.imotian.com  
-  ### 6.2 常用入口
+  ### 5.2 常用入口
    * 应用构建入口   
      ![应用构建入口](images/3.jpg)   
    * 审批中心入口  

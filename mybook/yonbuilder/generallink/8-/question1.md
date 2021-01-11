@@ -81,20 +81,6 @@
 </div>
 <p align="center">图 12</p>
 
-### 问题：数据库表不存在
-
-原因：数据库中并未存在该表
-<div align=center>
-<img src="/mybook/yonbuilder/generallink/8-/images/10.png"/>
-</div>
-<p align="center">图 10</p>
-
-解决方案：在数据建模选中批量导出sql，在数据库执行sql脚本即可
-
-<div align=center>
-<img src="/mybook/yonbuilder/generallink/8-/images/11.png"/>
-</div>
-<p align="center">图 11</p>
 
 
 
