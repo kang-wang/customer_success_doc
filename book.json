@@ -14,7 +14,9 @@
     "copy-code-button",
     "multipart",
     "simple-page-toc",
-    "-mygitalk"
+    "page-treeview",
+    "-mygitalk",
+    "popup"
   ],
   "pluginsConfig": {
     "simple-page-toc": {
@@ -45,6 +47,10 @@
       "copyright": "Copyright &copy 用友客户成功部 2020",
       "modify_label": "修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "page-treeview": {
+      "minHeaderCount": "2",
+      "minHeaderDeep": "2"
     },
     "anchor-navigation-ex": {
       "showLevel": false,
