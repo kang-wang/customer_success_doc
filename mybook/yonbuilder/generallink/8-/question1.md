@@ -34,12 +34,18 @@
 
 ### 问题：报cCardKey不存在错误？ 
 
-目前不支持单表，如果需要的话，请创建单卡。
+单表点击新增是跳转到卡片页面，这个报错就是找不到卡片
 
 <div align=center>
 <img src="/mybook/yonbuilder/generallink/8-/images/1.png"/>
 </div>
 <p align="center">图 4</p>
+
+<div align=center>
+<img src="/mybook/yonbuilder/generallink/8-/images/13.png"/>
+</div>
+<p align="center">图 4</p>
+
 
 ### 问题：系统预制的按钮，没办法写前端函数？ 
 
