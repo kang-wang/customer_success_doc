@@ -44,7 +44,7 @@
       ]
     },
     "tbfed-pagefooter": {
-      "copyright": "Copyright &copy 用友客户成功部 2020",
+      "copyright": "Copyright &copy 用友 -【客户成功部】【生态技术部】 2021",
       "modify_label": "修订时间：",
       "modify_format": "YYYY-MM-DD HH:mm:ss"
     },
@@ -95,8 +95,8 @@
       "bottom": 56
     }
   },
-  "title": "用友客户成功部",
-  "description": "用友客户成功部-文档中心",
+  "title": "【客户成功部】【生态技术部】",
+  "description": "用友-【客户成功部】【生态技术部】 联合推出",
   "author": "王立",
   "language": "zh-hans",
   "root": ".",
