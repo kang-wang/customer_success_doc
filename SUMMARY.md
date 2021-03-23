@@ -26,6 +26,7 @@
 			    * [后端_API函数区分](mybook/yonbuilder/generallink/7-/end/后端_API函数区分.md)
 			    * [YonQL使用指南](mybook/yonbuilder/generallink/7-/end/yonql.md)
 			    * [临时获取开放平台token方案](mybook/yonbuilder/generallink/9-/tempopenapi.md)
+			    * [调用开放平台接口示例](mybook/yonbuilder/generallink/9-/openapidemo.md)
 		    * [前端函数调用API函数](mybook/yonbuilder/generallink/7-/前端函数调用API函数.md)
     * [最佳实践](mybook/yonbuilder/bestpractices/README.md)
         * [如何做一个权限控制的信息上报系统](mybook/yonbuilder/bestpractices/permissions/README.md)

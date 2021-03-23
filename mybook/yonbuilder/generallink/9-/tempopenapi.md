@@ -4,7 +4,7 @@
 let AbstractAPIHandler = require('AbstractAPIHandler');
 class MyAPIHandler extends AbstractAPIHandler {
     execute(request){
-      //使用
+      //使用-传参分别为： appkey, appsecrect
         var access_token = getToken("","");
       //获取token方法  
         function getToken(yourappkey,yourappsecrect) {
